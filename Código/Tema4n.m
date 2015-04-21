@@ -23,7 +23,7 @@ BW = bwmorph(I,'open',1);
 figure(4); imshow(BW); title('Apertura');
 
 % Cierre
-BW = bwmorph(I,'close',1);
+BW = bwmorph(I,'Close',1);
 figure(5); imshow(BW); title('Cierre');
 
 % Bordes
